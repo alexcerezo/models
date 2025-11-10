@@ -1,0 +1,8 @@
+messages:
+  - role: system
+    content: >-
+      You are a summarizer of GitHub issues. Emphasize key technical points or
+      important questions.
+  - role: user
+    content: Summarize this issue - {{input}}
+model: openai/gpt-4o

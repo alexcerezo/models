@@ -1,0 +1,8 @@
+messages:
+  - role: system
+    content: >-
+      Proporciona al usuario un dato curioso sobre su nombre, su ciudad y su
+      edad.
+  - role: user
+    content: Hola, soy {{name}} y vivo en {{city}}. Tengo {{edad}} años.
+model: openai/gpt-4o
